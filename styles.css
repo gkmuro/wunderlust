@@ -86,14 +86,14 @@ header {
 /* NAVIGATION STYLES*/
 
 nav label {
-    background-color: yellow;
+    background-color: #F6D64A;
     width: 160px;
     height: 30px;
     text-align: center;
     padding-top: 20px;
 }
 
-#menuToggle {
+#menu-toggle {
     display: block;
     position: relative;
     top: -127px;
@@ -102,17 +102,17 @@ nav label {
     user-select: none;
 }
   
-#menuToggle a {
+#menu-toggle a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
 }
   
-#menuToggle a:hover {
+#menu-toggle a:hover {
     color: #F6D64A;
 }
   
-#menuToggle input {
+#menu-toggle input {
     display: block;
     width: 30px;
     height: 30px;
@@ -125,7 +125,7 @@ nav label {
     z-index: 2;  
 }
   
-#menuToggle label {
+#menu-toggle label {
     position: relative;
     display: block;
     width: 50%;
@@ -133,17 +133,17 @@ nav label {
     right: -434px;
 }
 
-#menuToggle label span {
+#menu-toggle label span {
     display: none;
 }
 
-#menuToggle label:hover {
+#menu-toggle label:hover {
     background: #222222;
     color: white;
 }
 
 
-#menuToggle input:checked ~ label {
+#menu-toggle input:checked ~ label {
     background: #222222;
     color: white;
 }
@@ -167,7 +167,7 @@ nav label {
     outline: black solid 1px;
 }
   
-#menuToggle input:checked ~ ul {
+#menu-toggle input:checked ~ ul {
     left: 0;
 }
 
@@ -499,7 +499,7 @@ picture img{
     outline: none;
 }
 
-#menuToggle label {
+#menu-toggle label {
     display: none;
 }
   
@@ -517,7 +517,8 @@ h1 {
     height: 60%;
 }
 
-#menuToggle li:hover, #menuToggle a:hover{
+#menu-toggle li:hover,
+ #menu-toggle  a:hover{
     background: #F6D64A;
     color: black;
 }
@@ -598,7 +599,7 @@ footer {
 }
 
 }
-/*------------------LARGE SCREEN SIZE------------------------*/
+/*------------------MEDIUM SCREEN SIZE------------------------*/
 @media only screen and (min-width: 769px){
 
     #img-grid{
@@ -644,7 +645,8 @@ footer {
         outline: none;
     }
     
-    #menuToggle label {
+
+#menu-toggle     label {
         display: none;
     }
       
@@ -661,7 +663,9 @@ footer {
         height: 60%;
     }
     
-    #menuToggle li:hover, #menuToggle a:hover{
+
+#menu-toggle     li:hover,
+ #menu-toggle  a:hover{
         background: #F6D64A;
         color: black;
     }
