@@ -66,7 +66,6 @@ table {
     width: auto;
     height: auto;
 }
-
 .sr-only {
     position: absolute;
     left: -10000px;
@@ -75,24 +74,23 @@ table {
     height: 1px;
     overflow: hidden;
 }
+/* SKIP AND SR STYLES*/
 
 header {
     background-image: linear-gradient(#55BCD5, white);
     height: 100%;
     padding-bottom: 30px;
+    transform: translate(0px, -18px);
 }
+
+/* NAVIGATION STYLES*/
+
 nav label {
     background-color: yellow;
     width: 160px;
     height: 30px;
     text-align: center;
     padding-top: 20px;
-}
-
-header {
-
-    transform: translate(0px, -18px);
-
 }
 
 #menuToggle {
@@ -114,8 +112,6 @@ header {
     color: #F6D64A;
 }
   
-  
-/* The hamburger button hidden inside an input element */
 #menuToggle input {
     display: block;
     width: 30px;
@@ -125,8 +121,8 @@ header {
     left: -5px;  
     padding: 0;
     cursor: pointer;  
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */  
+    opacity: 0; 
+    z-index: 2;  
 }
   
 #menuToggle label {
@@ -175,6 +171,8 @@ header {
     left: 0;
 }
 
+/* HEADER STYLES*/
+
 header img {
     width: 40%;
     height: 40%;
@@ -210,6 +208,7 @@ h4, p, q, small, nav, button, form {
     font-family: "Montserrat", sans-serif, Arial;
 }
 
+/* IMAGE GRID STYLES FOR INTRO*/
 img {
     width: 320px;
     height: auto;
@@ -223,6 +222,7 @@ img {
   justify-content: center;
 }
 
+/* PLAN STYLES*/
 #plan {
     background: #F6D64A;
     height: 120%;
@@ -268,6 +268,7 @@ h3{
     padding-top: 10px;
 }
 
+/* TESTIMONIAL STYLES*/
 #testimonials h3 {
     padding-top: 33px;
     font-size: 30px;
@@ -317,6 +318,7 @@ h3{
     width: 300px;
 }
 
+/* ABOUT STYLES*/
 #about {
     background-color: #499BD2;
     height: 460px;
@@ -347,6 +349,8 @@ h3{
     text-transform: uppercase;
 }
 
+/* CONTACT STYLES*/
+
 #contact h3 {
     font-size: 35px;
 }
@@ -356,7 +360,6 @@ h3{
     font-size: 16px;
     font-style: italic;
 }
-
 
 form{
 	width: 90%;
@@ -431,10 +434,10 @@ input[type="radio"]:focus {
 }
 
 #destination, #travelTime {
-height: 60px;
-width: 260px;
+    height: 60px;
+    width: 260px;
 }
-
+/* FOOTER STYLES*/
 footer {
     background-color: #EAEAEA;
     height: 135px;
@@ -449,11 +452,11 @@ footer a {
     color: black;
     font-family: 'Montserrat', sans-serif, 'Courier New', Courier, monospace;
 }
+/* END MAIN STYLES */ 
 
-/* END MAIN STYLE */ 
+/* MEDIA QUERIES*/ 
 
-/* MEDIA INQUIRIES*/ 
-
+/*------------------MEDIUM SCREEN SIZE------------------------*/
 @media screen and (min-width: 480px) {
 
 
@@ -595,7 +598,7 @@ footer {
 }
 
 }
-
+/*------------------LARGE SCREEN SIZE------------------------*/
 @media only screen and (min-width: 769px){
 
     #img-grid{
